@@ -1,0 +1,114 @@
+
+.empty_cart{
+    margin-top: 15%;
+    margin-left: 35%;
+}
+
+.cart_shop{
+    margin-left: 45%;
+    margin-top: 30px;
+    padding: 10px 30px;
+    border: 1px solid #fe4a55;
+    color: #fe4a55;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+.cart_container{
+     padding: 20px 30px;
+     width: 100%;
+}
+
+.cart_container .cart_product{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+
+}
+
+.cart_container .cart_product .cart_box .cart_product_container{
+    display: flex;
+}
+
+.cart_container .cart_product .cart_box .cart_product_container .cart_img-box img{
+    width: 250px;
+    height: 200px;
+}
+
+.cart_container .cart_product .cart_box .cart_product_container .carrt_item_detail{
+    margin-left: 30px;
+}
+
+.cart_container .cart_product .cart_box .cart_product_container .carrt_item_detail h2{
+    font-size: 16px;
+    color: #fe4a55;
+    text-transform: uppercase;
+    
+}
+
+.cart_container .cart_product .cart_box .cart_product_container .carrt_item_detail h3{
+  margin-top: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+
+}
+
+.cart_container .cart_product .cart_box .cart_product_container .carrt_item_detail input
+{
+    width: 50px;
+    border: 1px solid #fe4a55;
+    outline: none;
+    margin-top: 10px;
+
+}
+.cart_container .cart_product .cart_box .cart_product_container .carrt_item_detail .quantity_dec{
+    padding: 3px 3px;
+    border: 1px solid #fe4a55;
+    color: #fe4a55;
+    margin-right: 5px;
+    margin-top: 10px;
+  
+  
+}
+.cart_container .cart_product .cart_box .cart_product_container .carrt_item_detail .quantity_inc{
+    padding: 3px 3px;
+    border: 1px solid #fe4a55;
+    color: #fe4a55;
+    margin-left: 5px;
+    margin-top: 10px;
+    
+}
+
+.cart_container .cart_product .cart_box .cart_product_container .remove_cart{
+    background: none;
+    border: none;
+    outline: none;
+    color: #fe4a55;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+}
+ .checkout{
+    margin-left: 45%;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background: #fe4a55;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+ }
+
+ .cart_total{
+    margin-left: 45%;
+    font-size: 18px;
+    color: rgb(56, 46, 46);
+    
+
+ }
