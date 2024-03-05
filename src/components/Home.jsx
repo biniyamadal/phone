@@ -118,7 +118,6 @@ const Home = ({addToCart}) => {
       </SwiperSlide>
     </Swiper>
     <Services addToCart={addToCart}/>
-    {/* <Footer/> */}
     </div>
   );
 };
