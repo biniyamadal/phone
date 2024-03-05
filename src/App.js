@@ -20,7 +20,6 @@ const App = () => {
       setCartItem([...cartItem, { ...product, quantity: 1 }]);
     }
   };
-  console.log("djkdj")
 
   return (
     <>
