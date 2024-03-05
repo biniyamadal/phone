@@ -20,6 +20,7 @@ const App = () => {
       setCartItem([...cartItem, { ...product, quantity: 1 }]);
     }
   };
+  console.log("djkdj")
 
   return (
     <>
@@ -28,7 +29,7 @@ const App = () => {
         <Route path="/" element={<Home addToCart={addToCart} />} />
         <Route path="/cart" element={<Cart addToCart={addToCart} cartItem={cartItem} setCartItem={setCartItem} />} />
         <Route path="/payment" element={<Payment />} />
-        <Route path="/services" element={<Services addToCart={addToCart} />} />
+        <Route path="/services" element={<Services addToCart={addToCart}  />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login/>} ></Route>
         <Route path="/signup" element={<Signup/>}></Route>
