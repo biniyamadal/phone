@@ -62,6 +62,7 @@ const Footer = () => {
 
       <div style={copyrightStyle}>
         <p  style={paragraphStyle}>&copy; 2024 All rights reserved.</p>
+        <span>Developed by Bini A</span>
       </div>
     </footer>
   );
@@ -100,6 +101,7 @@ const linkStyle = {
 
 const paragraphStyle = {
   color: 'white', 
+  margin:'10px',
 };
 
 const copyrightStyle = {

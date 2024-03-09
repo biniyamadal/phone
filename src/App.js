@@ -6,8 +6,10 @@ import Contact from './components/Contact';
 import Services from './components/Services';
 import Navbar from './components/Navbar';
 import Cart from './components/Cart';
-import Signup from './components/pages/Signup';
 import Login from './components/pages/Login';
+import Register from './components/pages/Register';
+import ForgotPassword from './components/pages/ForgotPassword';
+import ResetPassword from './components/pages/ResetPassword';
 
 const App = () => {
   const [cartItem, setCartItem] = useState([]);
@@ -31,7 +33,9 @@ const App = () => {
         <Route path="/services" element={<Services addToCart={addToCart}  />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login/>} ></Route>
-        <Route path="/signup" element={<Signup/>}></Route>
+        <Route path="/register" element={<Register/>}></Route>
+        <Route path="/forgotpassword" element={<ForgotPassword/>}></Route>
+      <Route path="/resetpassword/:token" element={<ResetPassword/>}></Route>
       </Routes>
     </>
   );
